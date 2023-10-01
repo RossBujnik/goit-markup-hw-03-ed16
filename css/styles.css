@@ -2,6 +2,13 @@
 *::before,
 *::after {
 	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	line-height: 1.4em;
+	vertical-align: baseline;
+	text-decoration: none;
+	outline: 0;
 }
 .container {
 	width: 1158px;
@@ -91,16 +98,29 @@ h3 {
 
 /* nawigacja nagłówka */
 
+.header-system {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 72px;
+}
+.header-system_item {
+}
 .header-nav {
+	display: flex;
 	font-weight: 500;
 	font-size: 16;
 	line-height: 1, 5;
 	letter-spacing: 0.02em;
+	gap: 40px;
 }
 
 /* kontakty w nagłówku */
 
 .header-contacts {
+	display: flex;
+	flex-direction: row;
+	gap: 40px;
 	font-size: 16;
 	line-height: 1, 5;
 	letter-spacing: 0.02em;
@@ -108,6 +128,13 @@ h3 {
 
 /* hero */
 
+.hero-system {
+	display: flex;
+
+	height: 600px;
+}
+.hero-system_item {
+}
 .hero-background {
 	background-color: var(--dark);
 }
