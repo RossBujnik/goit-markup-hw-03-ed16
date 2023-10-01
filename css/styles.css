@@ -105,6 +105,7 @@ h3 {
 	height: 72px;
 }
 .header-system_item {
+	padding-right: 76px;
 }
 .header-nav {
 	display: flex;
@@ -135,8 +136,12 @@ h3 {
 }
 .hero-system_item {
 }
+.hero-title_style {
+	justify-content: center;
+}
 .hero-background {
 	background-color: var(--dark);
+	max-width: 1600px;
 }
 .hero-button {
 	color: var(--white-background);
