@@ -57,18 +57,22 @@ button {
 h1 {
 	color: var(--white-background);
 	font-weight: 700;
-	font-size: 56;
+	font-size: 56px;
 	line-height: 1, 07;
 	letter-spacing: 0.02em;
 	font-style: normal;
+	text-align: center;
+	padding-top: 188px;
 }
 
 h2 {
 	color: var(--dark);
 	font-weight: 700;
-	font-size: 36;
+	font-size: 36px;
 	line-height: 1, 11;
 	letter-spacing: 0.02em;
+	text-align: center;
+	padding-top: 120px;
 }
 
 h3 {
@@ -134,18 +138,21 @@ h3 {
 	background-color: var(--dark);
 	height: 600px;
 }
-.hero-structure {
+.hero-button_position {
 	display: flex;
-	flex-direction: column;
 	justify-content: center;
+	padding-top: 48px;
 }
-.hero-button {
+.hero-button_look {
 	color: var(--white-background);
 	background-color: var(--primary-brand);
 	font-weight: 500;
-	font-size: 16;
+	font-size: 16px;
 	line-height: 1, 5;
 	letter-spacing: 0.02em;
+	padding: 16px 32px;
+	border-radius: 4px;
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 /* Main Page section 1 */
@@ -157,7 +164,6 @@ h3 {
 	padding-top: 120px;
 	gap: 24px;
 }
-
 .section1-content {
 	color: var(--text);
 	font-size: 16;
@@ -165,9 +171,34 @@ h3 {
 	letter-spacing: 0.02em;
 	padding-top: 8px;
 }
+/* Main Page - section 2 */
+
+.section2-structure {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-top: 72px;
+	padding-bottom: 120px;
+}
 
 /* Main Page - section 3 */
 
+.section3-background {
+	background-color: var(--light);
+}
+.section3-structure {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-top: 72px;
+}
+.section3-item {
+	border-radius: 0px 0px 4px 4px;
+	background: var(--white-background);
+	box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+		0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+		0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
 .team-position {
 	color: var(--text);
 	font-size: 16;
