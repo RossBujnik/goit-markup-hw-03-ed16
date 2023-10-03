@@ -103,6 +103,10 @@ h3 {
 
 /* nawigacja nagłówka */
 
+.header_border {
+	border-bottom: 1px solid var(--accent);
+}
+
 .header_system {
 	display: flex;
 	justify-content: space-between;
@@ -249,7 +253,18 @@ h3 {
 /* Portfolio */
 /* Filters*/
 
-.portfolio-list .portfolio-button {
+.portfolio_list {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	gap: 24px;
+	padding-top: 96px;
+}
+.portfolio_button {
+	padding: 12px 24px;
+}
+
+.portfolio_list .portfolio_button {
 	color: var(--primary-brand);
 	background-color: var(--light);
 	font-weight: 500;
@@ -260,8 +275,8 @@ h3 {
 	border-radius: 4px;
 }
 
-.portfolio-list .portfolio-button:hover,
-.portfolio-list .portfolio-button:focus {
+.portfolio_list .portfolio_button:hover,
+.portfolio_list .portfolio_button:focus {
 	color: var(--white-background);
 	background-color: var(--pressed-state);
 	box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
