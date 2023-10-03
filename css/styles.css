@@ -60,6 +60,7 @@ h1 {
 	font-size: 56;
 	line-height: 1, 07;
 	letter-spacing: 0.02em;
+	font-style: normal;
 }
 
 h2 {
@@ -129,19 +130,14 @@ h3 {
 
 /* hero */
 
-.hero-system {
-	display: flex;
-
-	height: 600px;
-}
-.hero-system_item {
-}
-.hero-title_style {
-	justify-content: center;
-}
 .hero-background {
 	background-color: var(--dark);
-	max-width: 1600px;
+	height: 600px;
+}
+.hero-structure {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 .hero-button {
 	color: var(--white-background);
@@ -154,11 +150,20 @@ h3 {
 
 /* Main Page section 1 */
 
+.section1-structure {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-top: 120px;
+	gap: 24px;
+}
+
 .section1-content {
 	color: var(--text);
 	font-size: 16;
 	line-height: 1, 5;
 	letter-spacing: 0.02em;
+	padding-top: 8px;
 }
 
 /* Main Page - section 3 */
