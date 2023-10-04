@@ -85,7 +85,7 @@ h3 {
 
 /* header - logo */
 
-.header_brand-logo {
+.header_logo {
 	font-family: Raleway;
 	font-style: normal;
 	font-weight: 800;
@@ -94,10 +94,10 @@ h3 {
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
 }
-.header_brand-logo-blue {
+.header_logo-blue {
 	color: var(--primary-brand);
 }
-.header_brand-logo-black {
+.header_logo-black {
 	color: var(--dark);
 }
 
@@ -107,7 +107,7 @@ h3 {
 	border-bottom: 1px solid var(--accent);
 }
 
-.header_system {
+.header_structure {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -138,11 +138,11 @@ h3 {
 
 /* hero */
 
-.hero_background {
+.hero {
 	background-color: var(--dark);
 	height: 600px;
 }
-.hero_button-position {
+.hero_button {
 	display: flex;
 	justify-content: center;
 	padding-top: 48px;
@@ -187,7 +187,7 @@ h3 {
 
 /* Main Page - section 3 */
 
-.section3_background {
+.section3 {
 	background-color: var(--light);
 }
 .section3_structure {
@@ -220,13 +220,13 @@ h3 {
 
 /* footer */
 
-.footer_background {
+.footer {
 	background-color: var(--dark);
 }
-.footer_brand-structure {
+.footer_logo-structure {
 	padding-top: 101.5px;
 }
-.footer_brand-logo {
+.footer_logo {
 	font-family: Raleway;
 	font-style: normal;
 	font-weight: 800;
@@ -235,10 +235,10 @@ h3 {
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
 }
-.footer_brand-logo-blue {
+.footer_logo-blue {
 	color: var(--primary-brand);
 }
-.footer_brand-logo-white {
+.footer_logo-white {
 	color: var(--light);
 }
 .footer_contents {
@@ -299,14 +299,14 @@ h3 {
 	display: flex;
 	flex-direction: column;
 }
-.portfolio_main-item-margin {
+.portfolio_content {
 	padding-inline: 16px;
 	padding-block: 32px;
 	border: 1px solid var(--accent);
 	border-top: transparent;
 }
-.portfolio_main-item-title {
+.portfolio_title {
 }
-.portfolio_main-item-division {
+.portfolio_division {
 	padding-top: 8px;
 }
