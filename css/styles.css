@@ -295,12 +295,15 @@ h3 {
 	padding-bottom: 120px;
 	row-gap: 48px;
 }
+.portfolio_item {
+	display: flex;
+	flex-direction: column;
+}
 .portfolio_main-item-margin {
 	padding-inline: 16px;
 	padding-block: 32px;
 	border: 1px solid var(--accent);
 	border-top: transparent;
-	margin: 0 auto;
 }
 .portfolio_main-item-title {
 }
